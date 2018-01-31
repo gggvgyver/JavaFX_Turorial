@@ -5,10 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Button_MVC.MainController">
 
-      <Button layoutX="162.0" layoutY="129.0" mnemonicParsing="false" onAction="#generateRandom" prefHeight="142.0" prefWidth="277.0" text="이 버튼을 누르면 이벤트 발생" />
+      <Button fx:id="clickMe" layoutX="162.0" layoutY="129.0" mnemonicParsing="false" onAction="#generateRandom" prefHeight="142.0" prefWidth="277.0" text="이 버튼을 누르면 이벤트 발생" />
       <Label fx:id="myMessage" alignment="CENTER" layoutX="159.0" layoutY="63.0" prefHeight="47.0" prefWidth="277.0" text="어떤수가 나올까요?" textAlignment="CENTER" textFill="#dd1f1f">
          <font>
             <Font size="30.0" />
