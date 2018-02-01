@@ -1,6 +1,6 @@
 01. 자바 FX MVC 계산기
-02. Main.java:
-03. MainController.java:
-04. Modal(Model).java:
-05. Main.fxml:
+02. Main.java: 메인함수
+03. MainController.java: 디자인 부분에서 이벤트 처리
+04. Model.java: 계산처리
+05. Main.fxml: 디자인
 06. Main.css:
