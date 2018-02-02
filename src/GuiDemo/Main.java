@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("Gui.fxml"));
-            Scene scene = new Scene(root, 600, 400);
+            Scene scene = new Scene(root, 800, 600);
             scene.getStylesheets().add(getClass().getResource("Gui.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.setTitle("도서관에서 자바FX GUI 연습 180202");
